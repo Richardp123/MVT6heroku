@@ -1,0 +1,52 @@
+.App {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+}
+
+#mainPage {
+background-image: url(img/mvtBackground.svg);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 80vw;
+  height: 80vh;
+  margin-top: 20vh;
+  margin-left: 10vw;
+}
+
+#mvtLogo {
+  position: absolute;
+  top: 5%;
+  left: 35vw;
+  width: 30vw;
+  height: 25vh;
+  background-image: url(img/mvt6Logo.svg);
+  background-repeat: no-repeat;
+}
+
+#mvtInfo {
+  position: relative;
+  top: 25%;
+  font-size: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#mvtBut {
+  margin-top: 5%;
+  width: 18vw;
+  height: 8vw;
+  border-style: solid;
+  border-width: 15px;
+  border-color: gray;
+  background-color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+#mvtBut:hover {
+  color: black;
+  background-color: white;
+}

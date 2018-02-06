@@ -1,0 +1,18 @@
+.textInputs {
+  background-color: #cdcdcd;
+  width: 50%;
+  border: 0;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.chatroomButtons {
+  background-color: gray;
+  width: 10%;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 20px;
+}
