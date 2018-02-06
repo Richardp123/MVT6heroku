@@ -12,7 +12,7 @@ var usernames = [];
 var msgs = [];
 
 io.on("connection", function(socket){
-  console.log("user is connected");
+  console.log("user is connected success");
 
   socket.on("username", function(data){
     console.log("user is giving username: "+data);
