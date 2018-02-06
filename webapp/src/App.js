@@ -14,6 +14,8 @@ class App extends Component {
     }
     this.enterChatroom = this.enterChatroom.bind(this);
   }
+  
+  //testing
 
   enterChatroom(show){
     this.setState({
